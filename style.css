@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 45px;
+    color:#575757;
+}
+h2{
+    font-size: 40px;
+    color:#575757;
+}
+h3{
+    font-size:30px;
+    color:#EA512D;
+}
+span{
+    color:#EA512D;
+}
+.home-banner {
+    display: flex;
+    padding-top:30px;
+    padding-left:80px;
+    padding-right: 20px;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-inner {
+    width: 50%;
+}
+
+.home-inner img{
+    width: 90%;
+    margin-bottom: -5px;
+}
+/*Both button Design*/
+.plan-btn, .appoint-btn{
+    background-image: linear-gradient(to right, #EA491E, #D4340E);
+    padding:10px 30px;
+    color:#fff;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #EA491E;
+    transition:0.7s all ease-in-out;
+    cursor:pointer;
+}
+.plan-btn:hover, .appoint-btn:hover{
+    background-image: linear-gradient(to right,#D4340E, #EA491E);
+}
+
+.nutrill{
+    display: flex;
+    align-items: center;
+    padding:0px 80px;
+    padding-top:30px;
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nutrill-inner{
+    width: 50%;
+}
+.nutrill-inner img{
+    height: 500px;
+    padding:0px;
+    margin-left:60px;
+    margin-bottom:-5px;
+}
+.fresh{
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.fresh-top-content{
+    width: 50%;
+    margin:0 auto;
+}
+.fresh-wrap{
+    display: flex;
+    justify-content: center;
+    padding:20px 60px;
+}
+.fresh-items{
+    width: 40%;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #575757;
+}
+.fresh-items img{
+    width: 100%;
+}
+.fresh-items h2, p{
+    padding:0px 20px;
+}
+.fresh-items p{
+    text-align: justify;
+}
+.social-follower{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:5% 10%;
+}
+.social-items{
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #575757;
+    padding:20px 100px;
+}
+.social-items h2{
+    line-height: 1rem;
+    color:#EA512D;
+}
+.footer-area{
+    padding:20px 60px;
+    text-align: center;
+    background-color: #0B0D17;
+}
+.footer-area p{
+    color:#fff;
+}
