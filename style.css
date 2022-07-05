@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
     padding:0;
+    overflow-x: hidden;
 }
 h1{
     font-size: 45px;
@@ -96,7 +97,10 @@ span{
 .fresh-items img{
     width: 100%;
 }
-.fresh-items h2, p{
+.fresh-items>h2{
+    padding:0px 20px;
+}
+.fresh-items>p{
     padding:0px 20px;
 }
 .fresh-items p{
@@ -113,6 +117,7 @@ span{
 .social-items{
     display: flex;
     text-align: center;
+    justify-content: space-between;
     border-radius: 10px;
     box-shadow: 5px 5px 20px #575757;
     padding:20px 100px;
@@ -121,6 +126,14 @@ span{
     line-height: 1rem;
     color:#EA512D;
 }
+.social-element{
+    margin:0px 20px;
+}
+.social-items i{
+    font-size:40px;
+    color:#EA512D;
+
+}
 .footer-area{
     padding:20px 60px;
     text-align: center;
@@ -128,4 +141,64 @@ span{
 }
 .footer-area p{
     color:#fff;
+}
+
+/*Media Query*/
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 25px;
+        color:#575757;
+    }
+    h2{
+        font-size: 20px;
+        color:#575757;
+    }
+    h3{
+        font-size:18px;
+        color:#EA512D;
+    }
+
+    .home-banner {
+        display: flex;
+        padding:10px;
+        align-items: center;
+        position: relative;
+    }
+    .home-inner img{
+        width: 70%;
+        position:absolute;
+        bottom: 0px;
+        right:-40px;
+    }
+
+    .nutrill{
+        padding:0px 10px;
+        padding-top:10px;
+        
+    }
+    .nutrill-inner{
+        width: 50%;
+    }
+    .nutrill-inner img{
+        height: 400px;
+        margin-left:0px;
+    }
+
+    .fresh-top-content{
+        width: 80%;
+    }
+    .fresh-wrap{
+        padding:10px;
+    }
+    .fresh-items{
+        width: 50%;
+        margin:10px;
+    }
+    .fresh-items>h2{
+        padding:0px 10px;
+    }
+    .fresh-items>p{
+        padding:0px 10px;
+    }
+
 }
