@@ -20,22 +20,18 @@ span{
     color:#EA512D;
 }
 .home-banner {
-    display: flex;
-    padding-top:30px;
-    padding-left:80px;
-    padding-right: 20px;
-    background-image: url(images/Frame\ 58.jpg);
+    height: 600px;
+    padding:30px;
+    align-items: center;
+    background-image: url(images/nutribuilder-in-shape.png);
+    background-color:#FFEDF9;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: right;
 }
 .home-inner {
     width: 50%;
 }
 
-.home-inner img{
-    width: 90%;
-    margin-bottom: -5px;
-}
 /*Both button Design*/
 .plan-btn, .appoint-btn{
     background-image: linear-gradient(to right, #EA491E, #D4340E);
@@ -59,7 +55,7 @@ span{
     align-items: center;
     padding:0px 80px;
     padding-top:30px;
-    background-image: url(images/Frame\ 59.jpg);
+    background-image: url(images/Frame\ 56.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -74,7 +70,7 @@ span{
     margin-bottom:-5px;
 }
 .fresh{
-    background-image: url(images/Frame\ 56.jpg);
+    background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
